@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.2.6" />
+      <PackageReference Include="Avalonia.Desktop" Version="11.2.6" />
+      <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.6" />
+      <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="app\Generics\" />
+      <Folder Include="app\Models\" />
+      <Folder Include="res\fonts\" />
+      <Folder Include="res\icons\" />
+    </ItemGroup>
+
+</Project>
