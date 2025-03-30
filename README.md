@@ -2,7 +2,7 @@
 This project is an Avalonia template following the MVVM pattern, inspired by the structure of Android development and the MVVMAvaloniaAppTemplate.
 
 # Documentation
-You can find the documentation of this project here.
+You can find the documentation of this project [here](https://github.com/maniebra/avalonia-template/wiki).
 
 # Contributing
 Contributing to this project is straightforward. Please follow these steps:
