@@ -15,10 +15,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="app\Generics\" />
-      <Folder Include="app\Models\" />
-      <Folder Include="res\fonts\" />
-      <Folder Include="res\icons\" />
+      <Folder Include="Source\Models\" />
+      <Folder Include="Resources\fonts\" />
+      <Folder Include="Resources\icons\" />
     </ItemGroup>
 
 </Project>

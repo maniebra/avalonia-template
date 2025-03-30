@@ -1,9 +1,10 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
+using AvaloniaTemplate.Generics;
 using AvaloniaTemplate.ViewModels;
 
-namespace AvaloniaAppTemplate;
+namespace AvaloniaTemplate;
 
 public class ViewLocator : IDataTemplate
 {
@@ -26,6 +27,6 @@ public class ViewLocator : IDataTemplate
 
     public bool Match(object? data)
     {
-        return true; // TODO: data is ViewModelBase;
+        return data is BaseViewModel;
     }
 }
