@@ -17,3 +17,5 @@ Contributing to this project is straightforward. Please follow these steps:
 4. Wait for a review.
 5. Congratulations! Your changes will be merged upon approval!
 
+# License
+The license file for this project can be found [here](https://github.com/maniebra/avalonia-template/blob/main/LICENSE).
