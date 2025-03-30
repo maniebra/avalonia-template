@@ -6,5 +6,4 @@ namespace AvaloniaTemplate.Generics;
 
 public class BaseViewModel : ReactiveObject
 {
-    XmlDocument stringResources;
 }

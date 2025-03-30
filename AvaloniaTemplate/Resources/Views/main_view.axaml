@@ -3,6 +3,7 @@
         xmlns:vm="using:AvaloniaTemplate.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:res="clr-namespace:AvaloniaTemplate.Source.Extensions.MarkupExtensions.Resources"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaTemplate.Views.MainView"
         x:DataType="vm:MainViewModel"
@@ -25,7 +26,7 @@
         <StackPanel
             Spacing="16"
             UseLayoutRounding="True">
-            <TextBlock Text="{Binding title}" HorizontalAlignment="Center" />
+            <TextBlock Text="{res:Strings window_title}" HorizontalAlignment="Center" />
             <Button HorizontalAlignment="Center"
                     VerticalAlignment="Bottom"
                     Content="{Binding button_text}"

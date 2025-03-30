@@ -18,7 +18,14 @@
         <Folder Include="Source/**"/>
         <Folder Include="Resources/**"/>
         <AvaloniaResource Include="Resources/Icons/**"/>
+        <AvaloniaResource Include="Resources/Values/**"/>
         <AvaloniaResource Remove=".template.config/**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="Resources/Values/*.xml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
     
 </Project>
