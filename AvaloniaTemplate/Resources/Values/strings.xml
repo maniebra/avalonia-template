@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources tag="defualt">
-    <string id="window_title">Window Title</string>
+<resources>
+    <string name="window_title">Window Title</string>
 </resources>

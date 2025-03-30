@@ -8,14 +8,29 @@
         x:DataType="vm:MainViewModel"
         Title="Avalonia Template">
 
+
     <Design.DataContext>
         <vm:MainViewModel />
     </Design.DataContext>
 
 
-    <StackPanel FlowDirection="LeftToRight">
-        <TextBlock Text="{Binding title}" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom">Hello</Button>
-    </StackPanel>
+    <Border
+        CornerRadius="0 8 8 0"
+        Padding="16"
+        Background="#333333"
+        MaxWidth="400"
+        MinWidth="200"
+        HorizontalAlignment="Left">
+
+        <StackPanel
+            Spacing="16"
+            UseLayoutRounding="True">
+            <TextBlock Text="{Binding title}" HorizontalAlignment="Center" />
+            <Button HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Content="{Binding button_text}"
+                    CornerRadius="8"/>
+        </StackPanel>
+    </Border>
 
 </Window>

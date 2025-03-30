@@ -8,21 +8,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Avalonia" Version="11.2.6" />
-      <PackageReference Include="Avalonia.Desktop" Version="11.2.6" />
-      <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.6" />
-      <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.6" />
+        <PackageReference Include="Avalonia" Version="11.2.6"/>
+        <PackageReference Include="Avalonia.Desktop" Version="11.2.6"/>
+        <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.6"/>
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.6"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include=".template.config\" />
-      <Folder Include="Source\Models\" />
-      <Folder Include="Source\ViewModels\" />
-      <Folder Include="Source\Views\" />
-      <Folder Include="Resources\Fonts\" />
-      <Folder Include="Resources\Icons\" />
-      <Folder Include="Resources\Values\" />
-      <Folder Include="Resources\Views\" />
+        <Folder Include="Source/**"/>
+        <Folder Include="Resources/**"/>
+        <AvaloniaResource Include="Resources/Icons/**"/>
+        <AvaloniaResource Remove=".template.config/**" />
     </ItemGroup>
-
+    
 </Project>
