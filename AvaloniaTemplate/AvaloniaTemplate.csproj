@@ -15,9 +15,14 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include=".template.config\" />
       <Folder Include="Source\Models\" />
-      <Folder Include="Resources\fonts\" />
-      <Folder Include="Resources\icons\" />
+      <Folder Include="Source\ViewModels\" />
+      <Folder Include="Source\Views\" />
+      <Folder Include="Resources\Fonts\" />
+      <Folder Include="Resources\Icons\" />
+      <Folder Include="Resources\Values\" />
+      <Folder Include="Resources\Views\" />
     </ItemGroup>
 
 </Project>
