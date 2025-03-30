@@ -1,0 +1,10 @@
+<resources>
+    <dimension name="xs">2</dimension>
+    <dimension name="sm">4</dimension>
+    <dimension name="md">8</dimension>
+    <dimension name="xl">16</dimension>
+    <dimension name="2xl">24</dimension>
+    <dimension name="3xl">32</dimension>
+    <dimension name="2xl">40</dimension>
+    <dimension name="full">100</dimension>
+</resources>

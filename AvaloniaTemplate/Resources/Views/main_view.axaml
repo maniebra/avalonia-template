@@ -17,8 +17,8 @@
 
     <Border
         CornerRadius="0 8 8 0"
-        Padding="16"
-        Background="#333333"
+        Padding="{res:Resources dims/md}"
+        Background="{res:Resources colors/sidebarBg}"
         MaxWidth="400"
         MinWidth="200"
         HorizontalAlignment="Left">
@@ -26,7 +26,7 @@
         <StackPanel
             Spacing="16"
             UseLayoutRounding="True">
-            <TextBlock Text="{res:Strings window_title}" HorizontalAlignment="Center" />
+            <TextBlock Text="{res:Resources strings/windowTitle}" HorizontalAlignment="Center" />
             <Button HorizontalAlignment="Center"
                     VerticalAlignment="Bottom"
                     Content="{Binding button_text}"

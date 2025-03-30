@@ -19,7 +19,11 @@
         <Folder Include="Resources/**"/>
         <AvaloniaResource Include="Resources/Icons/**"/>
         <AvaloniaResource Include="Resources/Values/**"/>
-        <AvaloniaResource Remove=".template.config/**" />
+        <AvaloniaResource Remove=".template.config/**"/>
+        <Folder Remove="Source\Extensions\**"/>
+        <AvaloniaResource Remove="Source\Extensions\**"/>
+        <Folder Remove="Source\Utils\**"/>
+        <AvaloniaResource Remove="Source\Utils\**"/>
     </ItemGroup>
 
     <ItemGroup>
@@ -27,5 +31,6 @@
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
     </ItemGroup>
-    
+
+
 </Project>
